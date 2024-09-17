@@ -1,0 +1,136 @@
+/************************************ this file include all pages style ******************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: "Assistant" !important;
+    text-decoration: none !important;
+}
+
+
+/* accent colors */
+
+:root {
+    --primary-color: #006aff;
+    --secondary-color: #dfe1eb;
+    --white: white;
+    --default-bg-color: #f8f8f8;
+    --default-color: black;
+    --success-color: #2e7d32;
+    --blue-color: #21b4e2;
+    --golden-color: #f1d600;
+    --gray-color: gray;
+    --red-color: red;
+    --orange-color: orange;
+    --glass-color: rgba(255, 255, 255, 0.55);
+    --glass-border: rgba(209, 213, 219, 0.3);
+    --transperent-black-color: rgba(20, 20, 20, 0.8);
+    --error-color: #d32f2f;
+    --header-color: rgba(255, 255, 255, 0.1);
+    --label-color: rgba(0, 0, 0, 0.6);
+    --gradient-color: linear-gradient( to right, #b7deed 0%, #07004d 25%, #21b4e2 75%, #b7deed 100%);
+    --darkBlue-color: #07004d;
+}
+
+body {
+    background-color: var(--glass-color);
+    height: 100vh;
+}
+
+.primary-button {
+    background: var(--blue-color) !important;
+    border: 1px solid var(--blue-color) !important;
+    color: var(--white) !important;
+    border-radius: 12px !important;
+}
+
+.primary-button:hover {
+    background: transparent !important;
+    color: var(--blue-color) !important;
+}
+
+.bg-glass {
+    background: var(--glass-color) !important;
+}
+
+.text-primary {
+    color: var(--blue-color) !important;
+}
+
+
+/******************************** login page ****************************************************/
+
+.login-section img,
+.register-section img {
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+}
+
+.login-section {
+    background-color: #b7deed;
+}
+
+
+/******************************** Loading modal style ********************************************/
+
+.loading-modal .MuiDialogContent-root {
+    border: none !important;
+}
+
+.loading-modal .css-1t1j96h-MuiPaper-root-MuiDialog-paper,
+.loading-modal .css-uhb5lp {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+
+/********************************  side bar page ****************************************************/
+
+.sidebar-section {
+    position: relative !important;
+    width: 220px;
+    overflow: auto;
+    height: 100vh;
+}
+
+
+/* sidebar  icons */
+
+.sidebar-section .css-cveggr-MuiListItemIcon-root,
+.sidebar-section .css-1f8bwsm {
+    min-width: 35px !important;
+    color: var(--blue-color);
+}
+
+.sidebar-section .MuiList-root:hover {
+    box-shadow: var(--bs-box-shadow) !important;
+    background-color: var(--white) !important;
+    border-bottom: 1px solid var(--blue-color);
+}
+
+.bg-image {
+    background-image: url("../assets/bg-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+#root {
+    height: 100vh;
+    background-color: #b7deed;
+}
+
+.zoom-card {
+    overflow: hidden;
+}
+
+.zoom-img {
+    transition: transform 0.2s ease;
+}
+
+.zoom-card:hover .zoom-img {
+    transform: scale(1.1);
+    /* Adjust scale value for desired zoom effect */
+}

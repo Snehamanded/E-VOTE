@@ -1,0 +1,29 @@
+[{
+        "id": 1,
+        "name": "John Doe",
+        "photoUrl": "https://example.com/john-doe.jpg",
+        "age": 40,
+        "party": "Independent"
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "photoUrl": "https://example.com/jane-smith.jpg",
+        "age": 35,
+        "party": "Republican"
+    },
+    {
+        "id": 3,
+        "name": "Michael Johnson",
+        "photoUrl": "https://example.com/michael-johnson.jpg",
+        "age": 45,
+        "party": "Democrat"
+    },
+    {
+        "id": 4,
+        "name": "Emily Davis",
+        "photoUrl": "https://example.com/emily-davis.jpg",
+        "age": 38,
+        "party": "Green Party"
+    }
+]
